@@ -1,0 +1,736 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-box-lg {
+    padding: 100px 0;
+}
+
+.content-box-md {
+    padding: 70px 0;
+}
+
+section {
+    background-color: #000;
+}
+
+
+.second-header h2 {
+    position: relative;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.second-header h2::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    bottom: -3%;
+    left: 50%;
+    background-color: #f1c40f;
+    transform: translate(-50%);
+}
+
+.delete-overflow {
+    overflow-x: hidden;
+}
+
+/* = = = = = = = = = = navbar seaction = = = = = = = = = =  */
+
+.mainnav {
+    padding: 10px 0;
+}
+
+.mainnav.sticky {
+    background-color: #fff;
+}
+
+.mainnav.sticky .nav .nav-item .nav-link {
+    color: #000;
+}
+
+.mainnav.sticky .nav .nav-item .nav-link:hover {
+    color: #f1c40f;
+}
+
+.mainnav.sticky .nav .nav-item .nav-link.active {
+    color: #f1c40f;
+}
+
+.mainnav.sticky .header-nav .logo a {
+    color: #000;
+}
+
+.header-nav .logo {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.header-nav .logo a {
+    color: #fff;
+}
+
+.header-nav .logo span {
+    color: #f1c40f;
+}
+
+.nav .nav-item .nav-link {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.nav .nav-item .nav-link:hover {
+    color: #f1c40f;
+}
+
+.nav .nav-item .nav-link.active {
+    color: #f1c40f;
+}
+
+
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #FCD907;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+
+.scroll-up-btn.show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.nav span {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* = = = = = = = = = = home seaction = = = = = = = = = =  */
+
+.home {
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.home-text {
+    color: #fff;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-contact {
+    position: absolute;
+    left: 5%;
+    transform: translate(-5%, 90%);
+}
+
+.text-1 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.text-2 {
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.text-3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+
+}
+
+.text-3 span {
+    font-size: 30px;
+    color: #f1c40f;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.home-btn {
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #f1c40f;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.home-btn:hover {
+    border: 1px solid #f1c40f;
+    background-color: #fff;
+    color: #000;
+}
+
+/* = = = = = = = = home seaction = = = = = = = = =  */
+
+.home-varticl-navbar {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100px;
+    height: 200px;
+}
+
+.home-varticl-navbar .home-link {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 20px;
+    transition: all 3s ease;
+}
+
+.home-varticl-navbar .home-link:hover .icon-homes {
+    padding-left: 20px;
+    color: #f1c40f;
+}
+
+.home-varticl-navbar .home-link .icon-homes {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* = = = = = = = = = = About seaction = = = = = = = = = =  */
+
+.about-img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.about-img .about-img-1 {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border: 1px solid #fff;
+    box-shadow: 1px 2px 5px #fff;
+}
+
+.about-text {
+    margin-top: 20px;
+}
+
+.about-text h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.about-text h3 span {
+    font-size: 30px;
+    color: #f1c40f;
+}
+
+.about-text-1 {
+    margin-top: 30px;
+}
+
+.about-text p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.about-text-1 h4 {
+    font-size: 15px;
+}
+
+.about-text-1 p {
+    font-size: 13px;
+    color: #f1c40f;
+}
+
+.about-link {
+    margin-top: 30px;
+    transition: all 0.5s;
+}
+
+.about-link .btn2 {
+    background: transparent;
+    border: 1px solid #f1c40f;
+    color: #fff;
+}
+
+.about-link .btn1:hover {
+    color: #fff;
+}
+
+.about-link .btn2:hover {
+    border: 1px solid #fff;
+}
+
+/* = = = = = = = = = = Service seaction = = = = = = = = = =  */
+.service {
+    background-color: #000;
+}
+
+.service-box {
+    margin-top: 20px;
+}
+
+.service-box-1 h4 {
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
+
+.service-box-1 {
+    border: 1px solid #f1c40f;
+    padding: 30px 40px;
+    box-shadow: 2px 1px 2px #fff;
+    transition: all 0.5s ease;
+}
+
+.service-box-1:hover {
+    background-color: #f1c40f;
+    border: 2px solid #fff;
+}
+
+.service-box-1:hover .service-icons {
+    transform: translateY(-10px);
+}
+
+
+
+.service-box-1 .service-icons {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-box-1 p {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+.service-box-1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f1c40f;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.service-box-1 a:hover {
+    border-bottom: 2px solid #fff;
+    height: 3px;
+}
+
+
+
+.service-client {
+    border: 1px solid #fff;
+    padding: 20px 0;
+    box-shadow: 1px 0px 5px #fff;
+    background-color: #000;
+    color: #f1c40f;
+    transition: all 0.5s;
+}
+
+.service-client:hover {
+    -webkit-animation: border 2s linear infinite;
+    animation: border 2s linear infinite;
+    border: 2px solid #f1c40f;
+}
+
+@-webkit-keyframes border {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes border {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.service-client:hover .client-icons {
+    transform: translateY(-10px);
+    color: #fff;
+}
+
+.service-client .client-icons {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.service-client h6 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.service-client p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* = = = = = = = = = = skill seaction = = = = = = = = = =  */
+
+
+.skill-bar {
+    margin-bottom: 40px;
+}
+
+.skill-bar h5 {
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.progress {
+    height: 15px;
+    border-radius: 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.progress-bar {
+    background-color: #f1c40f;
+}
+
+.skill-bar span {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+/* = = = = = = = = = = swiper = = = = = = = = = =  */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #000;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    border: 1px solid #f1c40f;
+    box-shadow: 0 15px 50px rgba(255, 255, 255, 0.26);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    background: #fff;
+
+}
+
+.swiper-slide-active {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonial-box {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+}
+
+.testimonial-box p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.testimonial-box .details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testimonial-box .details h3 {
+    font-size: 15px;
+    margin-left: 10px;
+    color: #f1c40f;
+}
+
+.testimonial-box .details h3 span {
+    font-size: 12px;
+    color: #000;
+}
+
+
+/* = = = = = = = = = = Project seaction = = = = = = = = = =  */
+
+#isotope-filter button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    transition: all 0.5s;
+    background-color: #f1c40f;
+    padding: 5px 20px;
+    transition: all 0.5s;
+}
+
+#isotope-filter button:hover {
+    color: #fff;
+}
+
+#isotope-filter button.active {
+    color: #fff;
+}
+
+.project-filter {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.project-image {
+    position: relative;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 25px 30px;
+    box-shadow: 1px 1px 2px #fff;
+    transition: all 0.5s ease;
+    margin-bottom: 30px;
+}
+
+.project-image img {
+    display: block;
+    width: 100%;
+    height: 160px;
+    border: 1px solid #fff;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.project-image .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f1c40f;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.project-image:hover .overlay {
+    width: 100%;
+}
+
+.project-image .overlay .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+/* = = = = = = = = = = Contact seaction = = = = = = = = = =  */
+.contact {
+    overflow-x: hidden;
+}
+
+.contact-bg {
+    margin-top: 50px;
+}
+
+.contact-bg p {
+    font-size: 13px;
+    font-weight: 300;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.contact-input {
+    margin-bottom: 20px;
+}
+
+.contact-input textarea {
+    height: 120px;
+}
+
+.contact-button button {
+    padding: 5px 40px;
+    background-color: #f1c40f;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact-right {
+    width: 100%;
+}
+
+.contact-right-1 {
+    width: 80%;
+    background-color: #f1c40f;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 2px #fff;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.contact-addess h6 {
+    font-size: 20px;
+}
+
+.contact-addess p {
+    font-size: 12px;
+}
+
+.contact-addess a {
+    border: 1px solid #000;
+    padding: 7px 20px;
+    border-radius: 20px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.contact-addess a:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* = = = = = = = = = = footer seaction = = = = = = = = = =  */
+
+.footer {
+    background-color: #000;
+}
+
+.footer-1 p {
+    font-size: 15px;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-1 span {
+    color: #f1c40f;
+}

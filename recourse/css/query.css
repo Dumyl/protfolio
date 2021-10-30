@@ -1,0 +1,550 @@
+@media(max-width:1280px) {
+
+    /* = = = = = = = = custom seaction = = = = = = = = =  */
+    .row {
+        padding: 0 2%;
+    }
+
+    .col-md-6,
+    .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    .col-md-3 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .content-box-lg {
+        padding: 70px 0;
+    }
+
+    .content-box-md {
+        padding: 40px 0;
+    }
+
+    .scroll-up-btn {
+        height: 35px;
+        width: 35px;
+        right: 20px;
+        bottom: 30px;
+        font-size: 30px;
+    }
+
+    /* = = = = = = = = home seaction = = = = = = = = =  */
+    .home-contact {
+        left: 10%;
+        transform: translate(-10%, 60%);
+    }
+
+    .text-1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text-2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .text-3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .text-3 span {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:1198px) {
+
+    /* = = = = = = = = custom seaction = = = = = = = = =  */
+    .row {
+        padding: 0 2%;
+    }
+
+    .col-md-6,
+    .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    .col-md-3 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .content-box-lg {
+        padding: 70px 0;
+    }
+
+    .content-box-md {
+        padding: 40px 0;
+    }
+
+    .scroll-up-btn {
+        height: 35px;
+        width: 35px;
+        right: 20px;
+        bottom: 30px;
+        font-size: 30px;
+    }
+
+    /* = = = = = = = = home seaction = = = = = = = = =  */
+    .home-contact {
+        left: 10%;
+        transform: translate(-10%, 80%);
+    }
+
+    .text-1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text-2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .text-3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .text-3 span {
+        font-size: 25px;
+    }
+
+    /* = = = = = = = = custom seaction = = = = = = = = =  */
+    .contact-right {
+        margin-left: 60px;
+    }
+
+    .contact-right-1 {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+@media(max-width:993px) {
+
+    /* = = = = = = = = custom seaction = = = = = = = = =  */
+    .row {
+        padding: 0 2%;
+    }
+
+    .col-md-6,
+    .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    .col-md-3 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .content-box-lg {
+        padding: 70px 0;
+    }
+
+    .content-box-md {
+        padding: 40px 0;
+    }
+
+    .scroll-up-btn {
+        height: 35px;
+        width: 35px;
+        right: 20px;
+        bottom: 30px;
+        font-size: 30px;
+    }
+
+    /* = = = = = = = = home seaction = = = = = = = = =  */
+    .nav span {
+        display: block;
+    }
+
+    .nav .nav-item .nav-link {
+        display: none;
+    }
+
+    .home-contact {
+        left: 10%;
+        transform: translate(-10%, 80%);
+    }
+
+    .text-1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text-2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .text-3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .text-3 span {
+        font-size: 25px;
+    }
+
+    /* = = = = = = = = = = About seaction = = = = = = = = = =  */
+    .about-img .about-img-1 {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+        border: 1px solid #fff;
+        box-shadow: 1px 2px 5px #fff;
+    }
+
+    .home-btn {
+        padding: 10px 20px;
+    }
+
+    /* = = = = = = = = custom seaction = = = = = = = = =  */
+    .contact-right {
+        margin-left: 60px;
+    }
+
+    .contact-right-1 {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+
+@media(max-width:767px) {
+
+    /* = = = = = = = = custom seaction = = = = = = = = =  */
+    .row {
+        padding: 0 2%;
+    }
+
+    .col-md-6,
+    .col-md-4,
+    .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    .content-box-lg {
+        padding: 70px 0;
+    }
+
+    .content-box-md {
+        padding: 40px 0;
+    }
+
+    .nav span {
+        display: block;
+    }
+
+    .scroll-up-btn {
+        height: 35px;
+        width: 35px;
+        right: 20px;
+        bottom: 30px;
+        font-size: 30px;
+    }
+
+    /* = = = = = = = = header and navbar seaction = = = = = = = = =  */
+    .nav .nav-item .nav-link {
+        display: none;
+    }
+
+    .home-contact {
+        left: 15%;
+        transform: translate(-20%, 80%);
+    }
+
+    .text-1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text-2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .text-3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .text-3 span {
+        font-size: 25px;
+    }
+
+    .home-btn {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    /* = = = = = = = = home seaction = = = = = = = = =  */
+
+    .home-varticl-navbar {
+        bottom: 0;
+    }
+
+    .home-varticl-navbar .home-link:hover .icon-homes {
+        padding-left: 10px;
+    }
+
+    .home-varticl-navbar .home-link .icon-homes {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    /* = = = = = = = = = = About seaction = = = = = = = = = =  */
+    .about-img .about-img-1 {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+        border: 1px solid #fff;
+        box-shadow: 1px 2px 5px #fff;
+    }
+
+    .about-text h3 {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 12px;
+    }
+
+    .about-link {
+        margin-top: 10px;
+    }
+
+    .about-link .btn1,
+    .about-link .btn2 {
+        font-size: 13px;
+    }
+
+
+    /* = = = = = = = = = = Project seaction = = = = = = = = = =  */
+
+    #isotope-filter button {
+        font-size: 13px;
+    }
+
+    #isotope-filter button {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: #000;
+        transition: all 0.5s;
+        background-color: #f1c40f;
+        padding: 5px 10px;
+        transition: all 0.5s;
+    }
+
+    .project-image {
+        padding: 30px;
+    }
+
+    .project-image img {
+        height: 200px;
+    }
+
+    /* = = = = = = = = = = contact seaction = = = = = = = = = =  */
+    .contact-right-1 {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .footer-1 p {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+}
+
+
+
+@media(max-width:480px) {
+
+    /* = = = = = = = = custom seaction = = = = = = = = =  */
+    .row {
+        padding: 0 2%;
+    }
+
+    .col-md-6,
+    .col-md-4,
+    .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .content-box-lg {
+        padding: 70px 0;
+    }
+
+    .content-box-md {
+        padding: 40px 0;
+    }
+
+    .nav span {
+        display: block;
+    }
+
+    .scroll-up-btn {
+        height: 35px;
+        width: 35px;
+        right: 20px;
+        bottom: 30px;
+        font-size: 30px;
+    }
+
+    /* = = = = = = = = header and navbar seaction = = = = = = = = =  */
+    .nav .nav-item .nav-link {
+        display: none;
+    }
+
+    .home-contact {
+        left: 15%;
+        top: 50%;
+        transform: translate(-20%, 100%);
+    }
+
+    .text-1 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .text-2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .text-3 {
+        font-size: 13px;
+        margin-bottom: 20px;
+
+    }
+
+    .text-3 span {
+        font-size: 18px;
+    }
+
+    .home-btn {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    /* = = = = = = = = home seaction = = = = = = = = =  */
+
+    .home-varticl-navbar {
+        bottom: 0;
+    }
+
+    .home-varticl-navbar .home-link:hover .icon-homes {
+        padding-left: 10px;
+    }
+
+    .home-varticl-navbar .home-link .icon-homes {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    /* = = = = = = = = = = About seaction = = = = = = = = = =  */
+    .about-img .about-img-1 {
+        width: 100%;
+    }
+
+
+
+    .about-text h3 {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 12px;
+    }
+
+    .about-link {
+        margin-top: 10px;
+    }
+
+    .about-link .btn1,
+    .about-link .btn2 {
+        font-size: 13px;
+    }
+
+
+    /* = = = = = = = = = = Project seaction = = = = = = = = = =  */
+
+    #isotope-filter button {
+        font-size: 13px;
+    }
+
+    #isotope-filter button {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: #000;
+        transition: all 0.5s;
+        background-color: #f1c40f;
+        padding: 5px 10px;
+        transition: all 0.5s;
+    }
+
+    .project-image {
+        padding: 30px;
+    }
+
+    .project-image img {
+        height: 200px;
+    }
+
+    /* = = = = = = = = = = contact seaction = = = = = = = = = =  */
+    .contact-right-1 {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .footer-1 p {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+}
