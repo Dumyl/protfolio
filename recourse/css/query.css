@@ -32,10 +32,6 @@
     }
 
     /* = = = = = = = = home seaction = = = = = = = = =  */
-    .home-contact {
-        left: 10%;
-        transform: translate(-10%, 60%);
-    }
 
     .text-1 {
         font-size: 20px;
@@ -92,9 +88,11 @@
     }
 
     /* = = = = = = = = home seaction = = = = = = = = =  */
-    .home-contact {
-        left: 10%;
-        transform: translate(-10%, 80%);
+
+    .home-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .text-1 {
@@ -118,9 +116,6 @@
     }
 
     /* = = = = = = = = custom seaction = = = = = = = = =  */
-    .contact-right {
-        margin-left: 60px;
-    }
 
     .contact-right-1 {
         width: 100%;
@@ -166,13 +161,14 @@
         display: block;
     }
 
-    .nav .nav-item .nav-link {
-        display: none;
+    .home-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
-    .home-contact {
-        left: 10%;
-        transform: translate(-10%, 80%);
+    .nav .nav-item .nav-link {
+        display: none;
     }
 
     .text-1 {
@@ -213,15 +209,6 @@
         padding: 10px 20px;
     }
 
-    /* = = = = = = = = custom seaction = = = = = = = = =  */
-    .contact-right {
-        margin-left: 60px;
-    }
-
-    .contact-right-1 {
-        width: 100%;
-        padding: 30px 20px;
-    }
 }
 
 
@@ -263,11 +250,6 @@
         display: none;
     }
 
-    .home-contact {
-        left: 15%;
-        transform: translate(-20%, 80%);
-    }
-
     .text-1 {
         font-size: 20px;
         margin-bottom: 10px;
@@ -304,6 +286,11 @@
     }
 
     /* = = = = = = = = home seaction = = = = = = = = =  */
+    .home-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     .home-varticl-navbar {
         bottom: 0;
@@ -376,10 +363,6 @@
     }
 
     /* = = = = = = = = = = contact seaction = = = = = = = = = =  */
-    .contact-right-1 {
-        width: 90%;
-        padding: 30px;
-    }
 
     .footer-1 p {
         font-size: 12px;
@@ -431,12 +414,6 @@
         display: none;
     }
 
-    .home-contact {
-        left: 15%;
-        top: 50%;
-        transform: translate(-20%, 100%);
-    }
-
     .text-1 {
         font-size: 15px;
         margin-bottom: 10px;
@@ -473,6 +450,11 @@
     }
 
     /* = = = = = = = = home seaction = = = = = = = = =  */
+    .home-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     .home-varticl-navbar {
         bottom: 0;
@@ -538,10 +520,7 @@
     }
 
     /* = = = = = = = = = = contact seaction = = = = = = = = = =  */
-    .contact-right-1 {
-        width: 90%;
-        padding: 30px;
-    }
+
 
     .footer-1 p {
         font-size: 12px;
