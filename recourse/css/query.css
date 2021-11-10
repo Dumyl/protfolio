@@ -415,12 +415,12 @@
     }
 
     .text-1 {
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: 20px;
+        margin-bottom: 0px;
     }
 
     .text-2 {
-        font-size: 22px;
+        font-size: 30px;
         margin-bottom: 10px;
     }
 
@@ -432,6 +432,7 @@
 
     .text-3 span {
         font-size: 18px;
+        letter-spacing: 2px;
     }
 
     .home-btn {
@@ -450,10 +451,14 @@
     }
 
     /* = = = = = = = = home seaction = = = = = = = = =  */
+    .home {
+        height: 500px;
+    }
+
     .home-text {
         top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 40%;
+        transform: translate(-40%, -50%);
     }
 
     .home-varticl-navbar {
@@ -473,8 +478,6 @@
     .about-img .about-img-1 {
         width: 100%;
     }
-
-
 
     .about-text h3 {
         font-size: 20px;
